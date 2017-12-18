@@ -28,7 +28,7 @@ OK_COLOR=\033[32;01m
 ERROR_COLOR=\033[31;01m
 WARN_COLOR=\033[33;01m
 
-SRC=src/github.com/nlamirault/geronimo
+SRC=src/"github.com/sniperkit/geronimo
 
 SRCS = $(shell git ls-files '*.go' | grep -v '^vendor/')
 PKGS = $(shell find src -type f -print0 | xargs -0 -n 1 dirname | sort -u|sed -e "s/^src\///g")

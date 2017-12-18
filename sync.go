@@ -24,9 +24,9 @@ import (
 	"github.com/google/go-github/github"
 	"gopkg.in/olivere/elastic.v3"
 
-	"github.com/nlamirault/geronimo/config"
-	gh "github.com/nlamirault/geronimo/providers/github"
-	"github.com/nlamirault/geronimo/storage"
+	"github.com/sniperkit/geronimo/config"
+	gh "github.com/sniperkit/geronimo/providers/github"
+	"github.com/sniperkit/geronimo/storage"
 )
 
 const (

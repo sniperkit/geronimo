@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/nlamirault/geronimo/config"
-	"github.com/nlamirault/geronimo/logging"
-	"github.com/nlamirault/geronimo/version"
+	"github.com/sniperkit/geronimo/config"
+	"github.com/sniperkit/geronimo/logging"
+	"github.com/sniperkit/geronimo/version"
 )
 
 var (
